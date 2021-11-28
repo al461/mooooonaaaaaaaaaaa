@@ -126,9 +126,20 @@ p:nth-child(2){
 .ytmoona ul{
     width: 100%;
 }
+.nav ul{
+    padding-left: 0%;
+    }
 
 @media screen and (max-width: 1150px) {
     .moona {
         flex-direction: column;
+    }
+
+    .konten ul {
+        padding: 18px;
+    }
+
+    .nav label {
+        margin-left: 18px;
     }
 }
