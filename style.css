@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200&family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200&family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200&family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+
+
+body {
+    background-color:black;
+    color: aliceblue;
+    font-family: 'IBM Plex Sans', sans-serif;;
+    font-size: 14px;
+    margin: 0;
+}
+label{
+    margin-top: 19px;
+    margin-bottom: 19px;
+    margin-left: 40px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #ee4f87;
+    border-radius: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    font-family: 'Rubik', sans-serif;;
+}
+.linktiktok{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:0 !important;
+    
+}
+.linktiktok a{
+    display: flex;
+    text-decoration: none;
+   
+}
+.linktiktok label{
+    margin:0;
+    text-decoration: none;
+    
+}
+
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color:  #ee4f87;
+    border-radius: 0px;
+
+}
+ul li{
+    list-style: none;
+}
+ul{
+    font-family: 'Rubik', sans-serif;
+}
+.h2 ul{
+    list-style: none;
+    justify-content: center;
+    margin-right: 40px;
+}
+.ytmoona {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color:  #ee4f87;
+    border-radius: 0px;
+    text-decoration: none;
+
+
+}
+.ytmoona ul{
+    padding-left: 0;
+}
+.ytmoona label{
+    margin-left: 0;
+    margin-top: 0;
+
+}
+.ytmoona a{
+    text-decoration: none;
+}
+p{
+    color: aliceblue;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+h2{
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+}
+p:nth-child(1){
+    margin-bottom: 0;
+}
+p:nth-child(2){
+    margin-bottom: 0;
+}
+
+.moona img {
+    width: 400px;
+}
+
+.moona {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.moona .moona-detail {
+    display: flex;
+}
+.ytmoona li{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.ytmoona {
+    width: 100%;
+}
+.ytmoona ul{
+    width: 100%;
+}
